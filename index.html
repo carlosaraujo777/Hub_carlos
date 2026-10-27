@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Carlos | Developer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00ffcc">
+<body>
+    <div class="dashboard">
+        <!-- Cabeçalho -->
+        <header>
+            <div class="logo">HUB_CARLOS_v1.0</div>
+            <div class="clock" id="relogio">00:00:00</div>
+        </header>
+
+        <main class="grid-container">
+            <!-- Card de Perfil -->
+            <section class="card perfil">
+                <img src="https://github.com/carlosaraujo777.png" alt="Carlos Alexandre" class="foto-perfil">
+                <h1>Carlos Alexandre</h1>
+                <p class="cargo">Desenvolvedor & Analista de Dados</p>
+                <p class="localizacao">📍 Cuiabá - MT | 🎯 Buscando Remoto</p>
+                <div class="botoes-contato">
+                    <a href="https://github.com/carlosaraujo777" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/carlos-araujo-852b5b277/" target="_blank">LinkedIn</a>
+                </div>
+            </section>
+
+            <!-- Card de Status (Estatísticas) -->
+            <section class="card status">
+                <h2>Status do Sistema</h2>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <span class="numero">5</span>
+                        <span class="label">Projetos no Ar</span>
+                    </div>
+                    <div class="stat">
+                        <span class="numero">21</span>
+                        <span class="label">Anos de Idade</span>
+                    </div>
+                    <div class="stat">
+                        <span class="numero">100%</span>
+                        <span class="label">Foco no Futuro</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card do Gráfico de Habilidades -->
+            <section class="card habilidades">
+                <h2>Nível de Habilidades</h2>
+                <div class="grafico-box">
+                    <canvas id="graficoHabilidades"></canvas>
+                </div>
+            </section>
+
+            <!-- Card de Projetos -->
+            <section class="card projetos">
+                <h2>Projetos em Destaque</h2>
+                <ul class="lista-projetos">
+                    <li><a href="https://carlosaraujo777.github.io/logiagro/" target="_blank">🌱 LogiAgro (Marketplace)</a></li>
+                    <li><a href="https://carlosaraujo777.github.io/agrosim/" target="_blank">📊 AgroSim (Simulador)</a></li>
+                    <li><a href="https://carlosaraujo777.github.io/terminal-matrix/" target="_blank">🟢 Terminal Matrix</a></li>
+                    <li><a href="https://carlosaraujo777.github.io/Projetos_Carlos/" target="_blank">🌐 Portfólio Completo</a></li>
+                </ul>
+            </section>
+        </main>
+        
+        <footer>
+            <p>System Status: <span class="online">Online</span> | Construído por Carlos Alexandre</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

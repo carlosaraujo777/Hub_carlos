@@ -1,0 +1,17 @@
+{
+  "name": "Hub Carlos - Dev Dashboard",
+  "short_name": "Hub Carlos",
+  "description": "Portfólio interativo e dashboard de Carlos Alexandre",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00ffcc",
+  "icons": [
+    {
+      "src": "icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
